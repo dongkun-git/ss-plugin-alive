@@ -95,7 +95,7 @@ async function searchBase(query, page, type) {
     const paeData = qs.stringify(pae);
     const headers = {
         authority: "music.163.com",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "content-type": "application/x-www-form-urlencoded",
         accept: "*/*",
         origin: "https://music.163.com",
@@ -103,7 +103,7 @@ async function searchBase(query, page, type) {
         "sec-fetch-mode": "cors",
         "sec-fetch-dest": "empty",
         referer: "https://music.163.com/search/",
-        "accept-language": "zh-CN,zh;q=0.9",
+        "accept-language": "zh-TW,zh;q=0.9",
     };
     const res = (await (0, axios_1.default)({
         method: "post",
@@ -188,7 +188,7 @@ async function getArtistWorks(artistItem, page, type) {
     const paeData = qs.stringify(pae);
     const headers = {
         authority: "music.163.com",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "content-type": "application/x-www-form-urlencoded",
         accept: "*/*",
         origin: "https://music.163.com",
@@ -196,7 +196,7 @@ async function getArtistWorks(artistItem, page, type) {
         "sec-fetch-mode": "cors",
         "sec-fetch-dest": "empty",
         referer: "https://music.163.com/search/",
-        "accept-language": "zh-CN,zh;q=0.9",
+        "accept-language": "zh-TW,zh;q=0.9",
     };
     if (type === "music") {
         const res = (await (0, axios_1.default)({
@@ -232,7 +232,7 @@ async function getLyric(musicItem) {
         Referer: "https://y.music.163.com/",
         Origin: "https://y.music.163.com/",
         authority: "music.163.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "Content-Type": "application/x-www-form-urlencoded",
     };
     const data = { id: musicItem.id, lv: -1, tv: -1, csrf_token: "" };
@@ -253,7 +253,7 @@ async function getMusicInfo(musicItem) {
         Referer: "https://y.music.163.com/",
         Origin: "https://y.music.163.com/",
         authority: "music.163.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "Content-Type": "application/x-www-form-urlencoded",
     };
     const data = { id: musicItem.id, ids: `[${musicItem.id}]` };
@@ -271,7 +271,7 @@ async function getAlbumInfo(albumItem) {
         Referer: "https://y.music.163.com/",
         Origin: "https://y.music.163.com/",
         authority: "music.163.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "Content-Type": "application/x-www-form-urlencoded",
     };
     const data = {
@@ -299,7 +299,7 @@ async function getValidMusicItems(trackIds) {
         Referer: "https://y.music.163.com/",
         Origin: "https://y.music.163.com/",
         authority: "music.163.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+         "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         "Content-Type": "application/x-www-form-urlencoded",
     };
     try {
@@ -320,7 +320,7 @@ async function getSheetMusicById(id) {
         Referer: "https://y.music.163.com/",
         Origin: "https://y.music.163.com/",
         authority: "music.163.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+         "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
     };
     const sheetDetail = (await axios_1.default.get(`https://music.163.com/api/v3/playlist/detail?id=${id}&n=5000`, {
         headers,
@@ -344,7 +344,7 @@ async function getTopLists() {
     const res = await axios_1.default.get("https://music.163.com/discover/toplist", {
         headers: {
             referer: "https://music.163.com/",
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36 EdgA/100.0.0.0",
         },
     });
     const $ = cheerio.load(res.data);
@@ -404,7 +404,7 @@ async function getMediaSource(musicItem, quality) {
 }
 const headers = {
     authority: "music.163.com",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
     "content-type": "application/x-www-form-urlencoded",
     accept: "*/*",
     origin: "https://music.163.com",
@@ -412,7 +412,7 @@ const headers = {
     "sec-fetch-mode": "cors",
     "sec-fetch-dest": "empty",
     referer: "https://music.163.com/",
-    "accept-language": "zh-CN,zh;q=0.9",
+    "accept-language": "zh-TW,zh;q=0.9",
 };
 async function getRecommendSheetTags() {
     const data = {
@@ -493,7 +493,7 @@ async function getMusicSheetInfo(sheet, page) {
             Referer: "https://y.music.163.com/",
             Origin: "https://y.music.163.com/",
             authority: "music.163.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (HarmonyOS 4.0.0.118; Android 12; HUAWEIOXF-ANO0; zh-TW; HSSkyBoy) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 EdgA/125.0.0.0",
         };
         const sheetDetail = (await axios_1.default.get(`https://music.163.com/api/v3/playlist/detail?id=${id}&n=5000`, {
             headers,
@@ -512,11 +512,11 @@ async function getMusicSheetInfo(sheet, page) {
     return Object.assign({ isEnd: trackIds.length <= page * pageSize, musicList: res }, extra);
 }
 module.exports = {
-    platform: "小芸音乐",
-    author: 'Huibq',
-    version: "0.2.0",
-    appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoyun.js",
+    platform: "网抑云",
+    author: 'HSSkyBoy',
+    version: "0.2.2",
+    appVersion: ">0.2.0",
+    srcUrl: "https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free//xiaoyun.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [
