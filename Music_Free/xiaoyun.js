@@ -516,7 +516,7 @@ module.exports = {
     author: 'HSSkyBoy',
     version: "0.2.2",
     appVersion: ">0.2.0",
-    srcUrl: "https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free//xiaoyun.js",
+    srcUrl: "https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/xiaoyun.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [
