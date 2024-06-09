@@ -38,7 +38,7 @@ https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 
 MusicFree音源链接：
 ```bash
-https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin/alive/master/Music_Free/myPlugins.json
+https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
 ```
 
 教程请看png!
