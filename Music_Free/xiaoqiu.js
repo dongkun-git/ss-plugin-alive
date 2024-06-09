@@ -453,10 +453,10 @@ async function getMediaSource(musicItem, quality) {
     };
 }
 module.exports = {
-    platform: "小秋音乐",
-    author: "Huibq",
+    platform: "QQ音乐",
+    author: "HSSkyBoy",
     version: "0.2.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoqiu.js",
+    srcUrl: "https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/Music_Free/xiaoqiu.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [
