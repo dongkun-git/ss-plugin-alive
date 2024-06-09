@@ -24,7 +24,7 @@ musicfree请在设置里选择：播放失败时暂停！
 
 洛雪音乐音源链接：
 ```bash
-https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
+https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 ```
 
 教程请看png!
@@ -34,11 +34,11 @@ https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
 
 ### 三. MusicFree
 
-软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/download/v0.3.0/MusicFree-0.3.0.apk)
+软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/)
 
 MusicFree音源链接：
 ```bash
-https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json
+https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin/alive/master/Music_Free/myPlugins.json
 ```
 
 教程请看png!
