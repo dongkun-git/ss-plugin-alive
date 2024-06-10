@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = require("axios");
-import dayjs = require("dayjs");
-import CryptoJs = require("crypto-js");
-
 const pageSize = 30;
 
 const secret = "0b50b02fd0d73a9c4c8c3a781c30845f";
