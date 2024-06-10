@@ -1,8 +1,10 @@
-import axios from "axios";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const axios_1 = require("axios");
 import dayjs = require("dayjs");
 import CryptoJs = require("crypto-js");
 
-const pageSize = 20;
+const pageSize = 30;
 
 const secret = "0b50b02fd0d73a9c4c8c3a781c30845f";
 function getSignedParams(e) {
@@ -394,11 +396,11 @@ async function getTopListDetail(topListItem: IMusicSheet.IMusicSheetItem) {
 // }
 
 module.exports = {
-  platform: "千千音乐",
-  author: '猫头猫',
+  platform: "2卿音乐",
+  author: 'HSSkyBoy',
   version: "0.1.5",
   srcUrl:
-    "https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/Music_Free/2qing.js",
+    "https://raw.gitmirror.com/HSSkyBoy/HSSkyBoy/ss-plugin-alive/master/Music_Free/2qing.js",
   cacheControl: "no-cache",
   supportedSearchType: ["music", "album", "artist"],
   async search(query, page, type) {
