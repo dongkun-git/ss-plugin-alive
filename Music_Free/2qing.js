@@ -150,9 +150,10 @@ async function getArtistAlbumWorks(artistItem, page) {
   const headers = {
     "user-agent":
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",
-    referer: `https://music.91q.com/search?word=${encodeURIComponent(
-      artistItem.name
-    )}`,
+   referer: `https://music.91q.com/search?word=${encodeURIComponent(
+     albumItem.name
+   )}`,
+   
     from: "web",
     accept: "application/json, text/plain, */*",
     "accept-encoding": "gzip, deflate, br",
@@ -197,8 +198,8 @@ async function getAlbumInfo(albumItem) {
     const headers = {
       "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",
-      referer: `https://music.91q.com/search?word=${encodeURIComponent(
-        albumItem.name
+   referer: `https://music.91q.com/search?word=${encodeURIComponent(
+     albumItem.name
       )}`,
       from: "web",
       accept: "application/json, text/plain, */*",
