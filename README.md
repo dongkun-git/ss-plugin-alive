@@ -35,7 +35,7 @@ MusicFree请在设置中选择：播放失败时暂停
 https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 ```
 
-教程请看png!
+教程请看png
 
 ![img_1.png](source/LxMusic.png)
 
@@ -49,5 +49,8 @@ MusicFree音源链接：
 https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
 ```
 
-教程请看png!
+教程请看png
 ![img_2.png](source/MusicFree.png)
+
+
+注：MusicFree可将音源设置为订阅，更新更方便
