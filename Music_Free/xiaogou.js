@@ -380,10 +380,10 @@ async function importMusicSheet(urlLike) {
     return musicList;
 }
 module.exports = {
-    platform: "小枸音乐",
+    platform: "酷狗",
     version: "0.2.0",
     author: 'Huibq',
-    appVersion: ">0.1.0-alpha.0",
+    appVersion: ">0.2.0",
     srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",
     cacheControl: "no-cache",
     description: "",
