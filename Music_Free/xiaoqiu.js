@@ -453,7 +453,7 @@ async function getMediaSource(musicItem, quality) {
     };
 }
 module.exports = {
-    platform: "QQ音乐",
+    platform: "企鹅音乐",
     author: "HSSkyBoy",
     version: "0.2.2",
     srcUrl: "https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/Music_Free/xiaoqiu.js",
