@@ -26,21 +26,8 @@ MusicFree请在设置中选择：播放失败时暂停
 
 将IP发送到这个邮箱：wcisman8@outlook.com
 
-### 二. 洛雪音乐
 
-软件请转跳下载: [点击下载 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
-
-洛雪音乐音源链接：
-```any
-https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
-```
-
-教程请看png
-
-![img_1.png](source/LxMusic.png)
-
-
-### 三. MusicFree
+### 二. MusicFree
 
 软件请转跳下载: [点击下载 → MusicFree(手机端)](https://github.com/maotoumao/MusicFree/releases/)或[点击下载 → MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
@@ -53,4 +40,25 @@ https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.j
 ![img_2.png](source/MusicFree.png)
 
 
-注：MusicFree可将音源设置为订阅，更新更方便
+#### 注：MusicFree可将音源设置为订阅，更新更方便
+
+
+### 三. 洛雪音乐
+
+软件请转跳下载: [点击下载 → 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
+
+洛雪音乐音源链接：
+```any
+https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
+```
+
+教程请看png
+
+![img_1.png](source/LxMusic.png)
+
+
+### 四. 音悦app
+
+软件跳转下载(非官方):[点击下载 → 音悦](https://www.123pan.com/s/cvqiVv-Fxpk.html)
+
+兼容MusicFree音源
