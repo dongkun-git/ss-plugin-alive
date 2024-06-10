@@ -180,7 +180,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.1.4",
     appVersion: ">0.2.0",
-    srcUrl: "https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/Music_Free/catFM.js",
+    srcUrl: "https://raw.staticdn.net/HSSkyBoy/ss-plugin-alive/master/Music_Free/catFM.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music", "album",],
     async search(query, page, type) {
