@@ -45,7 +45,7 @@ https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/)
 
 MusicFree音源链接：
-```bash
+```any
 https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
 ```
 
