@@ -42,7 +42,7 @@ https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 
 ### 三. MusicFree
 
-软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/)
+软件请转跳下载: [点击下载 → MusicFree(手机端)](https://github.com/maotoumao/MusicFree/releases/)或[点击下载 → MusicFreeDesktop]https://github.com/maotoumao/MusicFreeDesktop/releases)
 
 MusicFree音源链接：
 ```any
