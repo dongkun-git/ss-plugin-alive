@@ -14,7 +14,7 @@
 
 #### 1.2 关于使用
 
-MusicFree请在设置中选择：播放失败时暂停
+MusicFree请在设置中选择：`播放失败时暂停`
 
 否则在某些情况下可能会导致被临时封禁IP
 
@@ -31,7 +31,7 @@ MusicFree请在设置中选择：播放失败时暂停
 
 软件请转跳下载: [点击下载 → MusicFree(手机端)](https://github.com/maotoumao/MusicFree/releases/)或[点击下载 → MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
-MusicFree音源链接：
+MusicFree 音源链接：
 ```any
 https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
 ```
@@ -47,7 +47,7 @@ https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.j
 
 软件请转跳下载: [点击下载 → 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
 
-洛雪音乐音源链接：
+洛雪音乐 音源链接：
 ```any
 https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 ```
