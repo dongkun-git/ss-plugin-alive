@@ -34,7 +34,9 @@ MusicFree请在设置中选择：`播放失败时暂停`
 MusicFree 音源链接：
 ```any
 https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
-
+```
+其他源
+```
 电脑2.7.0以后，手机1.3.0以后版本 支持的音源
 
 在线导入
@@ -49,7 +51,6 @@ freelisten：https://a.dongs.v6.rocks:7777/d/public/freeVIP/lx-music/musicsource
 
 或者本地导入下载好的.js文件 https://wwp.lanzouq.com/b02fq9w8d 密码 lxmusic
 ```
-
 
 教程请看png
 ![img_2.png](source/MusicFree.png)
