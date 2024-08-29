@@ -35,22 +35,6 @@ MusicFree 音源链接：
 ```any
 https://raw.gitmirror.com/HSSkyBoy/ss-plugin-alive/master/Music_Free/myPlugins.json
 ```
-其他源
-```
-电脑2.7.0以后，手机1.3.0以后版本 支持的音源
-
-在线导入
-
-野花： https://liuyang-public.oss-cn-beijing.aliyuncs.com/flower-v1.0.0.js https://raw.githubusercontent.com/OneCodeMonkey/music-sources/master/js/flower-v1.0.0.js
-
-Huibq源：https://raw.niuma666bet.buzz/Huibq/keep-alive/master/lxmusicapi.js
-
-ikun公益音源： https://lxmusic.ikunshare.com:9763/script?key=ikunsource 音源作者https://github.com/ikun0014/
-
-freelisten：https://a.dongs.v6.rocks:7777/d/public/freeVIP/lx-music/musicsource_freelisten_v1.1.1.js
-
-或者本地导入下载好的.js文件 https://wwp.lanzouq.com/b02fq9w8d 密码 lxmusic
-```
 
 教程请看png
 ![img_2.png](source/MusicFree.png)
@@ -67,7 +51,22 @@ freelisten：https://a.dongs.v6.rocks:7777/d/public/freeVIP/lx-music/musicsource
 ```any
 https://raw.niuma666bet.buzz/HSSkyBoy/ss-plugin-alive/master/render_api.js
 ```
+其他源
+```
+电脑2.7.0以后，手机1.3.0以后版本 支持的音源
 
+在线导入
+
+野花： https://liuyang-public.oss-cn-beijing.aliyuncs.com/flower-v1.0.0.js https://raw.githubusercontent.com/OneCodeMonkey/music-sources/master/js/flower-v1.0.0.js
+
+Huibq源：https://raw.niuma666bet.buzz/Huibq/keep-alive/master/lxmusicapi.js
+
+ikun公益音源： https://lxmusic.ikunshare.com:9763/script?key=ikunsource 音源作者https://github.com/ikun0014/
+
+freelisten：https://a.dongs.v6.rocks:7777/d/public/freeVIP/lx-music/musicsource_freelisten_v1.1.1.js
+
+或者本地导入下载好的.js文件 https://wwp.lanzouq.com/b02fq9w8d 密码 lxmusic
+```
 教程请看png
 
 ![img_1.png](source/LxMusic.png)
